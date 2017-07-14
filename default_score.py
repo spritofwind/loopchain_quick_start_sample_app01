@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import logging
 from loopchain.blockchain import ScoreBase
 
 
 class UserScore(ScoreBase):
-    """ 기본 체인코드
-        기본 체인코드는 아무런 역활을 하지 않는다
+    """ 기본 스코어
+        기본 스코어는 아무런 역할을 하지 않는다
     """
     def invoke(self, transaction, block):
         pass
